@@ -1,0 +1,14 @@
+---
+# defaults file for kvm_provision
+base_image_name: Arch-Linux-x86_64-basic-20240315.221711.qcow2
+base_image_url: https://gitlab.archlinux.org/archlinux/arch-boxes/-/package_files/6248/download
+base_image_sha: b9b621b26725ba95442d9a56cbaa054784e0779a9522ec6eafff07c6e6f717ea
+libvirt_pool_dir: "/var/lib/libvirt/images"
+vm_name: arch
+vm_vcpus: 2
+vm_ram_mb: 2048
+vm_net: default
+vm_root_pass: arch
+cleanup_tmp: no
+ssh_key: /root/.ssh/id_rsa.pub
+# defaults file for kvm_provision
